@@ -29,4 +29,27 @@ RSpec.describe Post, driver: :selenium_chrome, js: true do
 			expect(page).to have_content "Post was successfully updated."
 		end
 	end
+
+
+	describe 'destroy post' do
+		it 'should destroy a post' do
+			visit posts_path
+			accept_alert do
+				click_on("Destroy", match: :first)
+			end
+
+			expect(page).to have_content "Post was successfully destroyed."
+		end
+	end
+
+	describe 'post not destroyed' do
+		it 'should not destroy a post' do
+			visit posts_path
+			dismiss_confirm do
+				click_on("Destroy", match: :first)
+			end
+
+			expect(page).to have_content "Title Content"
+		end
+	end
 end

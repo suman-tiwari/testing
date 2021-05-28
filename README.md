@@ -5,20 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
+* Ruby version: 2.6.3
 
 * Configuration
-
-* Database creation
-
-* Database initialization
+    - `bundle install` command for installing all gems needed.
+    - `rails s` to run server.
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    - `rspec spec/features/posts_spec.rb` to run rspec test with capybara and selenium
+* Static Deployment at: https://suman-tiwari.github.io/testing/

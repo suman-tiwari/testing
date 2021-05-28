@@ -13,4 +13,7 @@ Things you may want to cover:
 
 * How to run the test suite
     - `rspec spec/features/posts_spec.rb` to run rspec test with capybara and selenium
-* Static Deployment at: https://suman-tiwari.github.io/testing/
+* Static Deployment 
+    - https://suman-tiwari.github.io/testing/
+* heroku deployment
+    - https://functional-testing.herokuapp.com/

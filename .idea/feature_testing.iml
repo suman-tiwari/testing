@@ -58,6 +58,7 @@
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.4.2, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.7, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.11.6, RVM: ruby-2.6.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v1.2.3, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v4.0.6, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v5.3.2, RVM: ruby-2.6.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.5.2, RVM: ruby-2.6.3) [gem]" level="application" />
